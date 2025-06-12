@@ -128,7 +128,7 @@ class WikulinerController extends Controller
 
         $wikul->name = $request->name;
         $wikul->rating = $request->rating;
-        
+    
         $wikul->save();
 
         return response()->json([
